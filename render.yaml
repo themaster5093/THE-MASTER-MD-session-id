@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: THE-MASTER-MD-pair-site
+    env: docker
+    plan: free
+    branch: main
+    repo: https://github.com/themaster5093/THE-MASTER-MD
+    dockerfilePath: ./Dockerfile
+    autoDeploy: true
