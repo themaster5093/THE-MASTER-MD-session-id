@@ -1,12 +1,12 @@
 {
-"name": "Themaster-md-pair",
+"name": "web-pair",
     "version": "0.0.1",
     "description": "A multi functional whatsapp bot Web paircode.",
     "main": "index.js",
     "scripts": {
-      "start": "pm2 start index.js --deep-monitoring --attach --name THE MASTER♟️🥀",
-      "stop": "pm2 stop The-master-md",
-     "restart": "pm2 restart The-master-md"
+      "start": "pm2 start index.js --deep-monitoring --attach --name MASTER-md",
+      "stop": "pm2 stop MASTER-md",
+     "restart": "pm2 restart Master-md"
     },
   "dependencies": {
     "@whiskeysockets/baileys": "6.7.16",              
