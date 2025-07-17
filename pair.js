@@ -77,28 +77,28 @@ var randomItem = selectRandomItem(items);
                         const string_session = mega_url.replace('https://mega.nz/file/', '');
                         let md = "THE-MASTER~MD~" + string_session;
                         let code = await sock.sendMessage(sock.user.id, { text: md });
-                        let desc = `*Hello there THE-MASTER-MD User! 👋🏻* 
+                        let desc = `*Hello there THE MASTER MD User! 👋🏻* 
 
 > Do not share your session id with your gf 😂.
 
- *Thanks for using THE-MASTER-MD* 
+ *Thanks for using SNOW-MD* 
 
 > Join WhatsApp Channel :- ⤵️
  
-your WhatsApp channel 
+https://whatsapp.com/channel/0029VbB2p44KWEKt0C6sx225 
 
 Dont forget to fork the repo ⬇️
 
-https://github.com/themaster5093/THE-MASTER-MD 
+https://github.com/jon-snow-tech-bot/SNOW-MD
 
-> *© Powered BY THE MASTER TECH♟️*`; 
+> *© Powered BY JON-SNOW TECH*`; 
                         await sock.sendMessage(sock.user.id, {
 text: desc,
 contextInfo: {
 externalAdReply: {
-title: "THE MASTER TECH🥀",
-thumbnailUrl: "https://cdn.dorratz.com/files/1749789631067.jpg",
-sourceUrl: "https://whatsapp.com/channel/0029Vb6DqIiL7UVT3yjH7O1t",
+title: "JON-SNOW",
+thumbnailUrl: "https://files.catbox.moe/rmcjwq.jpg",
+sourceUrl: "https://whatsapp.com/channel/0029VbB2p44KWEKt0C6sx225",
 mediaType: 1,
 renderLargerThumbnail: true
 }  
@@ -107,14 +107,14 @@ renderLargerThumbnail: true
 {quoted:code })
                     } catch (e) {
                             let ddd = sock.sendMessage(sock.user.id, { text: e });
-                            let desc = `*Don't Share with anyone this code use for deploy THE-MASTER-MD*\n\n ◦ *Github:* https://github.com/themaster5093/THE-MASTER-MD `;
+                            let desc = `*Don't Share with anyone this code use for deploy SNOW-MD*\n\n ◦ *Github:* https://github.com/jon-snow-tech-bot/SNOW-MD`;
                             await sock.sendMessage(sock.user.id, {
 text: desc,
 contextInfo: {
 externalAdReply: {
-title: "THE MASTER TECH♟️",
-thumbnailUrl: "https://cdn.dorratz.com/files/1749789631067.jpg",
-sourceUrl: "https://whatsapp.com/channel/0029Vb6DqIiL7UVT3yjH7O1t",
+title: "jon-snow-tech-bot",
+thumbnailUrl: "https://files.catbox.moe/rmcjwq.jpg",
+sourceUrl: "https://whatsapp.com/channel/0029VbB2p44KWEKt0C6sx225",
 mediaType: 2,
 renderLargerThumbnail: true,
 showAdAttribution: true
